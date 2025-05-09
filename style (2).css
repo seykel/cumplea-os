@@ -1,0 +1,64 @@
+/* Aplica la imagen de fondo al body */
+body {
+  background-image: url(fdfd.jpg); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
+  
+                                    
+}
+
+h2{
+  text-align: center;
+  font-size: 50px;
+  background-color: rgb(233, 113, 133);
+  border-radius: 10px;
+  color: white;
+  }
+
+h2 a{
+  text-decoration: none;
+  color: white;
+}
+
+.infor0{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: black;
+  font-weight: bold;
+}
+
+.infor1{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: bold;
+
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.texto {
+  width: 60%;
+  font-size: 30px;
+}
+
+.imagen {
+  width: 80%;
+}
+
+.imagen img {
+  width: 100%;
+  height: auto;
+}
+.imagen5{
+  text-align: center;
+  width: 100%;
+}
